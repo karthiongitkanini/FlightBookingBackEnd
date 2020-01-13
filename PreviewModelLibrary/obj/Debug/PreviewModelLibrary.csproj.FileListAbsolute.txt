@@ -1,0 +1,6 @@
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PreviewModelLibrary\bin\Debug\PreviewModelLibrary.dll
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PreviewModelLibrary\bin\Debug\PreviewModelLibrary.pdb
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PreviewModelLibrary\obj\Debug\PreviewModelLibrary.csprojAssemblyReference.cache
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PreviewModelLibrary\obj\Debug\PreviewModelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PreviewModelLibrary\obj\Debug\PreviewModelLibrary.dll
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PreviewModelLibrary\obj\Debug\PreviewModelLibrary.pdb

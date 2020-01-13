@@ -1,0 +1,6 @@
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PaymentLibraryModel\bin\Debug\PaymentLibraryModel.dll
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PaymentLibraryModel\bin\Debug\PaymentLibraryModel.pdb
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PaymentLibraryModel\obj\Debug\PaymentLibraryModel.csprojAssemblyReference.cache
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PaymentLibraryModel\obj\Debug\PaymentLibraryModel.csproj.CoreCompileInputs.cache
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PaymentLibraryModel\obj\Debug\PaymentLibraryModel.dll
+C:\Users\karthikeyan.kandavel\source\repos\AirlineAngularProjectWebApi\Airline_Reg_DAL_Library\PaymentLibraryModel\obj\Debug\PaymentLibraryModel.pdb

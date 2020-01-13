@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6919E64F-D878-40B5-85E2-C7B6F69ADF5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>User_Reg_BL_Library</RootNamespace>
+    <AssemblyName>User_Reg_BL_Library</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RegBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Airline_Reg_DAL_Library\Airline_Reg_DAL_Library.csproj">
+      <Project>{d4a35abd-6ec7-4acf-92be-fea9361581d6}</Project>
+      <Name>Airline_Reg_DAL_Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookingDetailsLibrary\BookingDetailsLibrary.csproj">
+      <Project>{dbe9113f-f9e8-44f3-a82e-2438c1656079}</Project>
+      <Name>BookingDetailsLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CancelModelLibrary\CancelModelLibrary.csproj">
+      <Project>{62270980-e12e-4418-bc11-2b3f4a9268d7}</Project>
+      <Name>CancelModelLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CancelTicketModelLibrary\CancelTicketModelLibrary.csproj">
+      <Project>{83892fd0-45c8-4f4e-a104-9006c7184d43}</Project>
+      <Name>CancelTicketModelLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FlightDetailsModelLibrary\FlightDetailsModelLibrary.csproj">
+      <Project>{a4cacaab-6bc7-46a5-99cb-af27a1085ce6}</Project>
+      <Name>FlightDetailsModelLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PassengerModelLibrary\PassengerModelLibrary.csproj">
+      <Project>{18acf668-533f-46f3-ac86-fb08ee0f86bd}</Project>
+      <Name>PassengerModelLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PreviewModelLibrary\PreviewModelLibrary.csproj">
+      <Project>{b78b8cff-7df3-4723-a429-50fb7687cb95}</Project>
+      <Name>PreviewModelLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SearchFlightModelLibrary\SearchFlightModelLibrary.csproj">
+      <Project>{69831bf9-f113-4c57-b73d-110fd0f002b7}</Project>
+      <Name>SearchFlightModelLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
